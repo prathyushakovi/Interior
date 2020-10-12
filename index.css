@@ -1,0 +1,37 @@
+.text-block {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top-left {
+  position: absolute;
+  top:40px;
+  right:20px;
+
+}
+.card {
+  width: 50%;
+  height:100%;
+  margin: 0 auto;
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.col-md-3:hover .overlay {
+  opacity: 1;
+}
